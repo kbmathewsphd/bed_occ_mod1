@@ -5,6 +5,7 @@ rows = 100000
 
 data = {
     "Day_of_Week": np.random.randint(1,8,rows),
+    "Week_of_Year": np.random.randint(1,53,rows),
     "Season": np.random.randint(1,5,rows),
     "Total_Beds": np.random.randint(100,500,rows),
     "Emergency_Admissions": np.random.randint(10,80,rows),
