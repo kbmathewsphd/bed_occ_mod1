@@ -1,0 +1,9 @@
+bed_occupancy_dataset
+Day_of_Week,Week_of_Year,Season,Total_Beds,Emergency_Admissions,Scheduled_Admissions,Discharges,Avg_Length_of_Stay,ICU_Admissions,Holiday,Staff_Availability,Local_Disease_Index,Festival_Holiday_Index,Population_Density,Nearby_Hospital_Capacity,Bed_Occupancy_Rate
+1,22,3,300,44,22,20,4,9,0,14,1,0,102000,3,9
+2,22,3,300,44,23,21,4,9,0,14,1,0,102000,3,9
+3,22,3,300,44,22,22,4,9,0,14,1,0,102000,3,9
+4,22,3,300,40,30,22,4,6,0,14,1,1,102000,3,9
+5,22,3,300,40,33,25,5,8,0,14,1,0,102000,3,99
+6,22,3,300,40,20,15,5,8,0,14,1,0,102000,3,9
+7,22,3,300,40,22,18,5,8,1,14,1,0,102000,3,9

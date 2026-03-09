@@ -119,7 +119,17 @@ plt.plot(y_train, p(y_train), '#F8766D')
 
 plt.xlabel('Experimental logS')
 plt.ylabel('Predicted logS')
-plt.show()
-# 
+# plt.show()
+
+import pandas as pd
+week_data = pd.read_csv ('next_week_data.csv')
+
+import joblib
+
+joblib.dump(rf,"bed_occupancy_model.pkl") 
+
+model = joblib.load("bed_occupancy_model.pkl")
+
+print(type(model))
 
 print("End")
